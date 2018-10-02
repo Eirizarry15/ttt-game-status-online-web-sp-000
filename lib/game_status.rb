@@ -19,9 +19,9 @@ def WIN_COMBINATIONS = [
   def won?()
     WIN_COMBINATIONS.each {|win_combo|
     
-    win_index_0 = win_combo[0]
-    win_index_1 = win_combo[1]
-    win_index_2 = win_combo[2]
+    index_0 = win_combo[0]
+    index_1 = win_combo[1]
+    index_2 = win_combo[2]
    
     position_1 = board[index_0]
     position_2 = board[index_1]
@@ -59,7 +59,7 @@ def over?(board)
 end
 
 def winner?(board)
-  index = [0]
+  index = []
   index = won?(board)
   if index == false
     return nil
