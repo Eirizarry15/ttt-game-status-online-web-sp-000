@@ -15,3 +15,15 @@ def WIN_COMBINATIONS = [
   [2,4,6]
 end
   ]
+  
+  def won?()
+    for each win_combination in WIN_COMBINATIONS
+    
+    win_index_1 = win_combination[0]
+    win_index_2 = win_combination[1]
+    win_index_3 = win_combination[2]
+    win_index_4 = win_combination[3]
+    win_index_5 = win_combination[4]
+    
+    
+  end  
