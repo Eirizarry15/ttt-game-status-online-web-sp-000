@@ -13,14 +13,15 @@ def WIN_COMBINATIONS = [
   [2,5,8],
   [0,4,8],
   [2,4,6]
-end
+
   ]
   
   def won?()
     WIN_COMBINATIONS.each {|win_combo|
     
-    win_index_1 = win_combination[0]
-    win_index_2 = win_combination[1]
+    win_index_0 = win_combo[0]
+    win_index_1 = win_combo[1]
+    win_index_2 = win_combo[2]
    
     position_1 = board[index_0]
     position_2 = board[index_1]
