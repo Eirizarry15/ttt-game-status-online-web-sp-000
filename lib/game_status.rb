@@ -21,9 +21,7 @@ end
     
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
-    win_index_3 = win_combination[2]
-    win_index_4 = win_combination[3]
-    win_index_5 = win_combination[4]
+   
     
     
   end  
