@@ -33,7 +33,7 @@ end
       return win_combo
     end
 }
- return false   
+     return false   
   end  
   
   def full?(board)
