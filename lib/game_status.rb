@@ -17,11 +17,15 @@ end
   ]
   
   def won?()
-    for each win_combination in WIN_COMBINATIONS
+    WIN_COMBINATIONS.each {|win_combo|
     
     win_index_1 = win_combination[0]
     win_index_2 = win_combination[1]
    
+    position_1 = board[index_0]
+    position_2 = board[index_1]
+    position_3 = board[index_2]
+    
     
     
   end  
